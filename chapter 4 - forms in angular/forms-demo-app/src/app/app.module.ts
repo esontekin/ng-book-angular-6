@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 import { AppComponent } from './app.component';
-import { DemoFormSkuComponent } from './demo-form-sku-component/demo-form-sku.component';
+import { DemoFormSkuComponent } from './demo-form-sku/demo-form-sku.component';
 
 @NgModule({
   declarations: [
