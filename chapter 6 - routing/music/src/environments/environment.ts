@@ -1,9 +1,16 @@
+import { SpotifyApiKey } from './spotifyApiKey';
+
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  // Here's our Spotify API token you can use for testing. Acquiring one of these tokens
+  // is beyond the scope of this book. See spotify's developer docs for details
+  // See the scripts/spotifyKey.js script for updating this file
+  spotifyApiKey: SpotifyApiKey
 };
 
 /*
