@@ -11,12 +11,8 @@ import { UserService } from '../../services/user.service';
 })
 export class UserComponent {
   userName: string;
-  userService: UserService;
 
-  constructor() {
-    const injector: any = ReflectiveInjector.resolveAndCreate([UserService]);
-
-    this.userService = injector.get(UserService);
+  constructor(private userService: UserService) {
   }
 
   signIn(): void {
