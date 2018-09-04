@@ -1,6 +1,5 @@
 import {
   Component,
-  ReflectiveInjector
 } from '@angular/core';
 import { UserService } from '../../services/user.service';
 
