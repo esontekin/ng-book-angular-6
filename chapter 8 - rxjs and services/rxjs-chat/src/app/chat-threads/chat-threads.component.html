@@ -1,0 +1,6 @@
+<div class="row">
+  <div class="conversation-wrap">
+    <chat-thread *ngFor="let thread of threads | async"
+      [thread]="thread"></chat-thread>
+  </div>
+</div>

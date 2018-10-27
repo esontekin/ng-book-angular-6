@@ -12,8 +12,8 @@ export class Message {
 
   constructor(obj?: any) {
     this.id     = obj && obj.id     || uuid();
-    this.sentAt = obj && obj.sentAt || false;
-    this.isRead = obj && obj.isRead || new Date();
+    this.sentAt = obj && obj.sentAt || new Date();
+    this.isRead = obj && obj.isRead || false;
     this.author = obj && obj.author || null;
     this.text   = obj && obj.text   || null;
     this.thread = obj && obj.thread || null;
