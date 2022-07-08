@@ -22,7 +22,7 @@
     "@angular/router": "^6.0.3",
     "core-js": "^2.5.4",
     "lodash": "^4.17.11",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.0.0",
     "zone.js": "^0.8.26"
